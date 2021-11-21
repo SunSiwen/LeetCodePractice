@@ -1,9 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("hello")
+	defer fmt.Println("hello")
+
 	twoSum([]int{2, 7, 11, 15}, 9)
 	addTwoNumbers(nil, nil)
+	lengthOfLongestSubstring("abcabcbb")
+	findMedianSortedArrays([]int{1, 2}, []int{0})
+	longestPalindrome("abc")
 }

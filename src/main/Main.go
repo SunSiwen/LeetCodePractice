@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	fmt.Println("hello")
-	twoSum([]int{2,7,11,15},9)
+	twoSum([]int{2, 7, 11, 15}, 9)
+	addTwoNumbers(nil, nil)
 }
-
-
